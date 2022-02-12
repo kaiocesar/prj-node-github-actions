@@ -17,4 +17,4 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run: "echo executando o test unitário"
       - run: |
-          yarn test
+          yarn install && yarn test
